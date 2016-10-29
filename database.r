@@ -1,3 +1,2 @@
-install.packages("RMySQL")
-library(RMySQL)
-mydb = dbConnect(MySQL(), user = 'root', password = 'master', dbname = 'travistorrent', host = 'localhost') 
+x <- function(a,b) (a-b)^2
+x(5,6)
